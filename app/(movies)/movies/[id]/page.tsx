@@ -1,6 +1,6 @@
 import MovieInfo, { getMovie } from "../../../../components/movie-info";
 import MovieVideo from "../../../../components/movie-videos";
-import { API_URL } from "../../../(home)/page";
+import { API_URL } from "../../../constants";
 import { Suspense } from "react";
 
 interface IParams {
